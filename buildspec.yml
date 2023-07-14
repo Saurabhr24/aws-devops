@@ -16,4 +16,6 @@
                                  - echo Configuring NGINX
         artifacts:
           files:
+                  
                                  - /var/www/html/index.html        
+                                 - /var/www/html/appspec.yml        
