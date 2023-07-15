@@ -3,3 +3,8 @@ os: linux
 files:
         - source: /
           destination: /var/www/html
+
+hooks:
+        AfterInstall: 
+        - sudo apt-get install nginx -y
+        - sudo systemctl start nginx
